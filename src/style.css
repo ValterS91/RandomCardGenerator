@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: darkgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  height: 28rem;
+  width: 22.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: azure;
+  border-radius: 0.4rem;
+  justify-content: space-between;
+}
+
+.card-topsuite {
+  font-size: 4rem;
+  align-self: flex-start;
+}
+
+.card-centersuite {
+  font-size: 4rem;
+  align-self: center;
+}
+
+.card-bottomsuite {
+  font-size: 4rem;
+  color: red;
+  align-self: flex-end;
+  transform: rotate(180deg);
+}
+
+.color-red {
+  color: red;
+}
+.color-black {
+  color: black;
+}
